@@ -1,10 +1,12 @@
 import Navbar from "./Components/Navbar/Navbar";
+import AppRouter from "./AppRouter";
+import './index.scss';
 
 function App() {
   return (
     <div className="App">
-      <h2>New App</h2>
       <Navbar />
+      <AppRouter />
     </div>
   );
 }
