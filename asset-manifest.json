@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/homemade-restaurant/static/css/main.bc2de5d6.chunk.css",
-    "main.js": "/homemade-restaurant/static/js/main.da7a212b.chunk.js",
-    "main.js.map": "/homemade-restaurant/static/js/main.da7a212b.chunk.js.map",
+    "main.css": "/homemade-restaurant/static/css/main.9c406e60.chunk.css",
+    "main.js": "/homemade-restaurant/static/js/main.ac4e8fcf.chunk.js",
+    "main.js.map": "/homemade-restaurant/static/js/main.ac4e8fcf.chunk.js.map",
     "runtime-main.js": "/homemade-restaurant/static/js/runtime-main.fc64c62e.js",
     "runtime-main.js.map": "/homemade-restaurant/static/js/runtime-main.fc64c62e.js.map",
-    "static/js/2.c403bf32.chunk.js": "/homemade-restaurant/static/js/2.c403bf32.chunk.js",
-    "static/js/2.c403bf32.chunk.js.map": "/homemade-restaurant/static/js/2.c403bf32.chunk.js.map",
+    "static/js/2.88b02767.chunk.js": "/homemade-restaurant/static/js/2.88b02767.chunk.js",
+    "static/js/2.88b02767.chunk.js.map": "/homemade-restaurant/static/js/2.88b02767.chunk.js.map",
     "index.html": "/homemade-restaurant/index.html",
-    "static/css/main.bc2de5d6.chunk.css.map": "/homemade-restaurant/static/css/main.bc2de5d6.chunk.css.map",
-    "static/js/2.c403bf32.chunk.js.LICENSE.txt": "/homemade-restaurant/static/js/2.c403bf32.chunk.js.LICENSE.txt"
+    "static/css/main.9c406e60.chunk.css.map": "/homemade-restaurant/static/css/main.9c406e60.chunk.css.map",
+    "static/js/2.88b02767.chunk.js.LICENSE.txt": "/homemade-restaurant/static/js/2.88b02767.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/homemade-restaurant/static/media/home-bg.07567954.jpg",
+    "static/media/logo.9733d066.png": "/homemade-restaurant/static/media/logo.9733d066.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fc64c62e.js",
-    "static/js/2.c403bf32.chunk.js",
-    "static/css/main.bc2de5d6.chunk.css",
-    "static/js/main.da7a212b.chunk.js"
+    "static/js/2.88b02767.chunk.js",
+    "static/css/main.9c406e60.chunk.css",
+    "static/js/main.ac4e8fcf.chunk.js"
   ]
 }
