@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/new-app/static/css/main.bc2de5d6.chunk.css",
-    "main.js": "/new-app/static/js/main.0b8cbe97.chunk.js",
-    "main.js.map": "/new-app/static/js/main.0b8cbe97.chunk.js.map",
-    "runtime-main.js": "/new-app/static/js/runtime-main.890d82e6.js",
-    "runtime-main.js.map": "/new-app/static/js/runtime-main.890d82e6.js.map",
-    "static/js/2.a39f42fb.chunk.js": "/new-app/static/js/2.a39f42fb.chunk.js",
-    "static/js/2.a39f42fb.chunk.js.map": "/new-app/static/js/2.a39f42fb.chunk.js.map",
-    "index.html": "/new-app/index.html",
-    "static/css/main.bc2de5d6.chunk.css.map": "/new-app/static/css/main.bc2de5d6.chunk.css.map",
-    "static/js/2.a39f42fb.chunk.js.LICENSE.txt": "/new-app/static/js/2.a39f42fb.chunk.js.LICENSE.txt"
+    "main.css": "/homemade-restaurant/static/css/main.bc2de5d6.chunk.css",
+    "main.js": "/homemade-restaurant/static/js/main.da7a212b.chunk.js",
+    "main.js.map": "/homemade-restaurant/static/js/main.da7a212b.chunk.js.map",
+    "runtime-main.js": "/homemade-restaurant/static/js/runtime-main.fc64c62e.js",
+    "runtime-main.js.map": "/homemade-restaurant/static/js/runtime-main.fc64c62e.js.map",
+    "static/js/2.c403bf32.chunk.js": "/homemade-restaurant/static/js/2.c403bf32.chunk.js",
+    "static/js/2.c403bf32.chunk.js.map": "/homemade-restaurant/static/js/2.c403bf32.chunk.js.map",
+    "index.html": "/homemade-restaurant/index.html",
+    "static/css/main.bc2de5d6.chunk.css.map": "/homemade-restaurant/static/css/main.bc2de5d6.chunk.css.map",
+    "static/js/2.c403bf32.chunk.js.LICENSE.txt": "/homemade-restaurant/static/js/2.c403bf32.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.890d82e6.js",
-    "static/js/2.a39f42fb.chunk.js",
+    "static/js/runtime-main.fc64c62e.js",
+    "static/js/2.c403bf32.chunk.js",
     "static/css/main.bc2de5d6.chunk.css",
-    "static/js/main.0b8cbe97.chunk.js"
+    "static/js/main.da7a212b.chunk.js"
   ]
 }
