@@ -1,11 +1,11 @@
 import Home from '../Home/Home';
-import About from '../About/About';
+import Menu from '../Menu/Menu';
 
 const SinglePage = () => {
     return (
         <div className="single-page">
             <Home />
-            <About />
+            <Menu />
         </div>
     );
 }

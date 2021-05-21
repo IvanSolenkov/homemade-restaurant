@@ -1,6 +1,7 @@
 import { Redirect, Route, Switch } from "react-router";
-import About from './Components/About/About';
+import Menu from "./Components/Menu/Menu";
 import SinglePage from "./Components/SinglePage/SinglePage";
+import Cooking from "./Components/Cooking/Cooking";
 
 
 const AppRouter = () => {
@@ -8,7 +9,8 @@ const AppRouter = () => {
         <div className="routing">
             <Switch>
                 <Route path="/home" component={SinglePage} />
-                <Route path="/about" component={About} />
+                <Route path="/menu" component={Menu} />
+                <Route path="/cooking" component={Cooking} />
                 <Redirect to="/home" />
             </Switch>
         </div>

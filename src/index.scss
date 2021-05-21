@@ -15,7 +15,7 @@ $orangeColor: #FE7606;
         justify-content: space-between;
         align-items: center;
         img{
-            height: 110px;
+            height: 85px;
             width: 120px;
             margin-left: 50px;
         }
@@ -27,18 +27,6 @@ $orangeColor: #FE7606;
             color: $whiteColor;
         }
     }
-}
-
-.navbar-head{
-    color: $whiteColor;
-    font-size: 2rem;
-    text-decoration: none;
-    font-weight: bold;
-    margin-left: 3rem;
-    transition: 0.5s;
-}
-.navbar-head:hover{
-    color: #d4af37;
 }
 
 .menu-bars{

@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <div className="navigation">
-                <Link to="/home">
+                <Link to="/">
                     <img src={logo} alt="logo" />
                 </Link>
                 <Link to="#" className="menu-bars">

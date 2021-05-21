@@ -1,5 +1,6 @@
 import * as ImIcons from 'react-icons/im';
-import * as FcIcons from 'react-icons/fc';
+import * as BiIcons from 'react-icons/bi';
+import * as GiIcons from 'react-icons/gi';
 
 export const SidebarData = [
     {
@@ -9,9 +10,15 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
-        title: 'About',
-        path: '/about',
-        icon: <FcIcons.FcAbout />,
+        title: 'Menu',
+        path: '/menu',
+        icon: <BiIcons.BiFoodMenu />,
+        cName: 'nav-text'
+    },
+    {
+        title: 'Cooking',
+        path: '/cooking',
+        icon: <GiIcons.GiCookingPot />,
         cName: 'nav-text'
     },
 ]
