@@ -1,17 +1,17 @@
-import * as AiIcons from 'react-icons/ai';
-import * as SiIcons from 'react-icons/si';
+import * as ImIcons from 'react-icons/im';
+import * as FcIcons from 'react-icons/fc';
 
 export const SidebarData = [
     {
         title: 'Home',
         path: '/',
-        icon: <AiIcons.AiFillHome />,
+        icon: <ImIcons.ImHome />,
         cName: 'nav-text'
     },
     {
         title: 'About',
         path: '/about',
-        icon: <SiIcons.SiAboutDotMe />,
+        icon: <FcIcons.FcAbout />,
         cName: 'nav-text'
     },
 ]

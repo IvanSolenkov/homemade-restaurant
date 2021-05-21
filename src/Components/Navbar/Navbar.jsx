@@ -3,7 +3,7 @@ import * as AiIcons from 'react-icons/ai';
 import { SidebarData } from "./SidebarData";
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import logo from '../uploads/img/logo.png';
 
 const Navbar = () => {
     const [sidebar, setSidebar] = useState(false);
@@ -12,6 +12,9 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <div className="navigation">
+                <Link to="/home">
+                    <img src={logo} alt="logo" />
+                </Link>
                 <Link to="#" className="menu-bars">
                     <FaIcons.FaBars onClick={showSidebar} />
                 </Link>
