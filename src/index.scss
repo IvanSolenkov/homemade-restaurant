@@ -174,3 +174,24 @@ $orangeColor: #FE7606;
     }
     
 }
+
+
+/* Responsive Design */
+
+/* Portrait */
+@media only screen and (max-width: 900px) {
+    .home{
+        height: 60vh;
+        .home-elements{
+            h1{
+                font-size: 44px;
+            }
+            p{
+                width: 270px;
+            }
+            button{
+                font-size: 20px;
+            }
+        }
+    }
+}
