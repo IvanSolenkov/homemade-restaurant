@@ -1,6 +1,6 @@
 {
-  "homepage": "http://ivansolenkov.github.io/new-app",
-  "name": "new-app",
+  "homepage": "http://ivansolenkov.github.io/homemade-restaurant",
+  "name": "homemade-restaurant",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
