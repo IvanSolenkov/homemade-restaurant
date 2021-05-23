@@ -1,3 +1,5 @@
+import LearnButton from "../LearnButton/LearnButton"
+
 const Home = () => {
     return (
         <div className="home">
@@ -11,7 +13,7 @@ const Home = () => {
                     Uis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur Image from <span>Freepik</span>.
                 </p>
-                <button>Learn More</button>
+                <LearnButton />
             </div>
         </div>
     );
