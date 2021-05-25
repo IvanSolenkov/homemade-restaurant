@@ -1,23 +1,49 @@
+import styled from "styled-components";
 import Skill from "../Skill/Skill"
-import styled from 'styled-components';
 
 const Cooking = () => {
-    const Number = styled.h1`
-    background-color: green;
+    const BaseMeals = styled(Skill)`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    padding: 20px 20px;
+    margin-right: 20px;
+    font-family: 'Roboto Slab', serif;
+    `;
+
+    const KnifeSkills = styled(Skill)`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: orangered;
+    padding: 20px 20px;
+    margin-right: 20px;
+    font-family: 'Roboto Slab', serif;
+    `;
+
+    const CookingChicken = styled(Skill)`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: crimson;
+    padding: 20px 20px;
+    margin-right: 20px;
+    font-family: 'Roboto Slab', serif;
     `;
 
     return (
         <div className="cooking">
-            <h1>Learn Cooking Online</h1>
-            <p>
+            <h1 className="cooking-head">Learn Cooking Online</h1>
+            <p className="cooking-paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua
             </p>
             <h4>Image from <span>Freepik</span></h4>
             <div className="skills">
-                <Skill number="1" title="Base Meals" />
-                <Skill number="2" title="Knife Skills" />
-                <Skill number="3" title="Cooking Chicken" />
+                <BaseMeals number="1" title="Base Meals" />
+                <KnifeSkills number="2" title="Knife Skills" />
+                <CookingChicken number="3" title="Cooking Chicken" />
             </div>
         </div>
     );
