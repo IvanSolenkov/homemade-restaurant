@@ -6,7 +6,7 @@ const Skill = (props) => {
     const className = props.className;
 
     return (
-        <div className={className}>
+        <div className={className} id="skills">
             <h1 className="skill-num-head">{number}</h1>
             <h3 className="skill-title-head">{title}</h3>
             <p className="skill-paragraph">

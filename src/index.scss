@@ -285,6 +285,7 @@ $orangeColor: #FE7606;
 
     .home{
         height: 60vh;
+        align-items: center;
         .home-elements{
             h1{
                 font-size: 44px;
@@ -316,6 +317,13 @@ $orangeColor: #FE7606;
 
         .skill-paragraph{
             font-size: 14px;
+        }
+        #skills{
+            margin-right: 0;
+            margin-bottom: 40px;
+        }
+        .skills{
+            justify-content: center;
         }
     }
 }
