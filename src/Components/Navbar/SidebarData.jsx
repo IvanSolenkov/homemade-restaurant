@@ -21,4 +21,10 @@ export const SidebarData = [
         icon: <GiIcons.GiCookingPot />,
         cName: 'nav-text'
     },
+    {
+        title: 'Asian Food',
+        path: '/asianfood',
+        icon: <GiIcons.GiFoodChain />,
+        cName: 'nav-text'
+    },
 ]

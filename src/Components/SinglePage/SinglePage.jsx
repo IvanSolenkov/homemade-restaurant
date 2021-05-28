@@ -1,3 +1,4 @@
+import AsianFood from '../AsianFood/AsianFood';
 import Cooking from '../Cooking/Cooking';
 import Home from '../Home/Home';
 import Menu from '../Menu/Menu';
@@ -8,6 +9,7 @@ const SinglePage = () => {
             <Home />
             <Menu />
             <Cooking />
+            <AsianFood />
         </div>
     );
 }

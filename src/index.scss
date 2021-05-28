@@ -274,6 +274,62 @@ $orangeColor: #FE7606;
     font-size: 18px;
 }
 
+/* AsianFood */
+
+.asian-food{
+    position: relative;
+
+    .food-text{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        .asian{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            text-align: right;
+            margin-right: 20px;
+            width: 700px;
+            h2{
+                font-size: 72px;
+                margin: 0;
+                margin-top: 40px;
+            }
+            p{
+                width: 300px;
+                text-align: center;
+            }
+        }
+        .food{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            background-color: $orangeColor;
+            height: 110vh;
+            width: 700px;
+            h2{
+                font-size: 72px;
+                margin: 0;
+                margin-top: 40px;
+            }
+            p{
+                width: 300px;
+                text-align: center;
+            }
+        }
+    }
+
+    .food-images{
+        position: absolute;
+        bottom: 0px;
+        img{
+            height: 400px;
+            width: 350px;
+            margin-left: 75px;
+        }
+    }
+}
+
 
 
 /* Responsive Design */
@@ -326,4 +382,43 @@ $orangeColor: #FE7606;
             justify-content: center;
         }
     }
+
+    /* AsianFood */
+
+    .asian-food{
+        .food-text{
+            .asian{
+                h2{
+                    font-size: 50px;
+                }
+                p{
+                    width: 150px;
+                }
+            }
+            .food{
+                height: 50vh;
+                h2{
+                    font-size: 50px;
+                }
+                p{
+                    width: 150px;
+                }
+            }
+        }
+        
+        .food-images{
+            display: flex;
+            justify-content: space-evenly;
+            position: unset;
+            top: 380px;
+            img{
+                height: 170px;
+                width: 115px;
+                margin-left: 0;
+            }
+        }
+    }
+    
+
+    
 }
