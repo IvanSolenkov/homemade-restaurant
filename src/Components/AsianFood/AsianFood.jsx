@@ -1,8 +1,15 @@
+import { ImageGroup, Image } from 'react-fullscreen-image'
 import food1 from '../uploads/img/asian-food/asian-food1.jpeg';
 import food2 from '../uploads/img/asian-food/asian-food2.jpeg';
 import food3 from '../uploads/img/asian-food/asian-food3.jpeg';
 
 const AsianFood = () => {
+    const images = [
+        food1,
+        food3,
+        food2,
+    ]
+
     return (
         <div className="asian-food">
             <div className="food-text">
@@ -23,12 +30,23 @@ const AsianFood = () => {
                 </div>
             </div>
 
-            <div className="food-images">
-                <img src={food1} alt="food1" />
-                <img src={food2} alt="food2" />
-                <img src={food3} alt="food3" />
-            </div>
-
+            <ImageGroup>
+                <ul className="images">
+                    {images.map(i => (
+                        <li key={i}>
+                            <Image
+                                src={i}
+                                alt="food"
+                                style={{
+                                    height: '400px',
+                                    width: '350px',
+                                    objectFit: 'cover',
+                                }}
+                            />
+                        </li>
+                    ))}
+                </ul>
+            </ImageGroup>
         </div>
     );
 }
