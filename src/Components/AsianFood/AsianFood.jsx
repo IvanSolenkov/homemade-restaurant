@@ -49,7 +49,11 @@ const AsianFood = () => {
                             />
                         </li>
                     ))}
+                    <div className="middle">
+                        <div className="text">All Photos</div>
+                    </div>
                 </ul>
+
             </ImageGroup>
         </div>
     );
