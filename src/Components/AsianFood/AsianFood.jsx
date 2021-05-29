@@ -2,12 +2,16 @@ import { ImageGroup, Image } from 'react-fullscreen-image'
 import food1 from '../uploads/img/asian-food/asian-food1.jpeg';
 import food2 from '../uploads/img/asian-food/asian-food2.jpeg';
 import food3 from '../uploads/img/asian-food/asian-food3.jpeg';
+import meat from '../uploads/img/meat-fish/meat.jpeg';
+import fish from '../uploads/img/meat-fish/fish.jpeg';
 
 const AsianFood = () => {
     const images = [
         food1,
-        food3,
         food2,
+        meat,
+        fish,
+        food3,
     ]
 
     return (

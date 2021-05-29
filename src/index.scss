@@ -18,6 +18,10 @@ $orangeColor: #FE7606;
             height: 85px;
             width: 120px;
             margin-left: 50px;
+            transition: 0.5s;
+        }
+        img:hover{
+            border-bottom: 3px solid black;
         }
         a{
             color: $blackColor;
@@ -322,15 +326,9 @@ $orangeColor: #FE7606;
     .images{
         position: absolute;
         right: 38%;
-        bottom: 5px;
+        bottom: 10px;
         height: 380px;
         width: 290px;
-        img{
-            transition: 0.5s;
-        }
-        img:hover{
-            opacity: 0.8;
-        }
     }
 }
 
