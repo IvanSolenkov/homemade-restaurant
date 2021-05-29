@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/homemade-restaurant/static/css/main.90f6bdbf.chunk.css",
-    "main.js": "/homemade-restaurant/static/js/main.7fae782e.chunk.js",
-    "main.js.map": "/homemade-restaurant/static/js/main.7fae782e.chunk.js.map",
+    "main.css": "/homemade-restaurant/static/css/main.48cff4bf.chunk.css",
+    "main.js": "/homemade-restaurant/static/js/main.caaf2a0f.chunk.js",
+    "main.js.map": "/homemade-restaurant/static/js/main.caaf2a0f.chunk.js.map",
     "runtime-main.js": "/homemade-restaurant/static/js/runtime-main.fc64c62e.js",
     "runtime-main.js.map": "/homemade-restaurant/static/js/runtime-main.fc64c62e.js.map",
     "static/css/2.8d98fc34.chunk.css": "/homemade-restaurant/static/css/2.8d98fc34.chunk.css",
@@ -10,13 +10,15 @@
     "static/js/2.009a9908.chunk.js.map": "/homemade-restaurant/static/js/2.009a9908.chunk.js.map",
     "index.html": "/homemade-restaurant/index.html",
     "static/css/2.8d98fc34.chunk.css.map": "/homemade-restaurant/static/css/2.8d98fc34.chunk.css.map",
-    "static/css/main.90f6bdbf.chunk.css.map": "/homemade-restaurant/static/css/main.90f6bdbf.chunk.css.map",
+    "static/css/main.48cff4bf.chunk.css.map": "/homemade-restaurant/static/css/main.48cff4bf.chunk.css.map",
     "static/js/2.009a9908.chunk.js.LICENSE.txt": "/homemade-restaurant/static/js/2.009a9908.chunk.js.LICENSE.txt",
     "static/media/asian-food1.7c1e3725.jpeg": "/homemade-restaurant/static/media/asian-food1.7c1e3725.jpeg",
     "static/media/asian-food2.7f027c33.jpeg": "/homemade-restaurant/static/media/asian-food2.7f027c33.jpeg",
     "static/media/asian-food3.5e6f2cfd.jpeg": "/homemade-restaurant/static/media/asian-food3.5e6f2cfd.jpeg",
     "static/media/coffee.6477a47e.jpg": "/homemade-restaurant/static/media/coffee.6477a47e.jpg",
     "static/media/index.scss": "/homemade-restaurant/static/media/home-bg.07567954.jpg",
+    "static/media/farm-product.67207448.jpg": "/homemade-restaurant/static/media/farm-product.67207448.jpg",
+    "static/media/farm-product2.88ecc4c8.jpg": "/homemade-restaurant/static/media/farm-product2.88ecc4c8.jpg",
     "static/media/fish.51542178.jpeg": "/homemade-restaurant/static/media/fish.51542178.jpeg",
     "static/media/logo.ad1db24b.png": "/homemade-restaurant/static/media/logo.ad1db24b.png",
     "static/media/meat.4bbb10a8.jpg": "/homemade-restaurant/static/media/meat.4bbb10a8.jpg",
@@ -26,7 +28,7 @@
     "static/js/runtime-main.fc64c62e.js",
     "static/css/2.8d98fc34.chunk.css",
     "static/js/2.009a9908.chunk.js",
-    "static/css/main.90f6bdbf.chunk.css",
-    "static/js/main.7fae782e.chunk.js"
+    "static/css/main.48cff4bf.chunk.css",
+    "static/js/main.caaf2a0f.chunk.js"
   ]
 }
