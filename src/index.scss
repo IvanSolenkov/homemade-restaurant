@@ -166,8 +166,8 @@ $orangeColor: #FE7606;
         transition: 0.5s;
     }
     button:hover{
-        color: $whiteColor;
-        border-bottom: 2px solid $whiteColor;
+        color: $blackColor;
+        border-bottom: 2px solid $blackColor;
     }
 }
 
@@ -383,6 +383,34 @@ $orangeColor: #FE7606;
     }
 }
 
+/* Farm Products */
+
+.farm-products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 72px;
+    img{
+        height: 360px;
+        width: 300px;
+        padding: 10px;
+        border: 2px solid $orangeColor;
+    }
+    .product-text{
+        h3{
+            color: $orangeColor;
+            font-size: 34px;
+            font-style: italic;
+            margin: 0;
+        }
+        p{
+            width: 350px;
+        }
+    }
+}
+
+
 /* Responsive Design */
 
 /* Portrait */
@@ -477,6 +505,14 @@ $orangeColor: #FE7606;
             h2{
                 font-size: 40px;
             }
+        }
+    }
+
+    /* FarmProducts */
+
+    .farm-products{
+        .product-text{
+            text-align: center;
         }
     }
 }

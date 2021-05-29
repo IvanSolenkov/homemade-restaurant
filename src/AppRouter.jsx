@@ -3,7 +3,7 @@ import Menu from "./Components/Menu/Menu";
 import SinglePage from "./Components/SinglePage/SinglePage";
 import Cooking from "./Components/Cooking/Cooking";
 import AsianFood from "./Components/AsianFood/AsianFood";
-import MeatAndFish from "./Components/MeatAndFish/MeatAndFish";
+import Products from "./Components/Products/Products";
 
 
 const AppRouter = () => {
@@ -14,7 +14,7 @@ const AppRouter = () => {
                 <Route path="/menu" component={Menu} />
                 <Route path="/cooking" component={Cooking} />
                 <Route path="/asianfood" component={AsianFood} />
-                <Route path="/meatfish" component={MeatAndFish} />
+                <Route path="/meatfish" component={Products} />
                 <Redirect to="/home" />
             </Switch>
         </div>
