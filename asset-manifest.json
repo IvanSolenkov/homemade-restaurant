@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/homemade-restaurant/static/css/main.a3fa2a51.chunk.css",
-    "main.js": "/homemade-restaurant/static/js/main.f70ac195.chunk.js",
-    "main.js.map": "/homemade-restaurant/static/js/main.f70ac195.chunk.js.map",
+    "main.css": "/homemade-restaurant/static/css/main.90f6bdbf.chunk.css",
+    "main.js": "/homemade-restaurant/static/js/main.7fae782e.chunk.js",
+    "main.js.map": "/homemade-restaurant/static/js/main.7fae782e.chunk.js.map",
     "runtime-main.js": "/homemade-restaurant/static/js/runtime-main.fc64c62e.js",
     "runtime-main.js.map": "/homemade-restaurant/static/js/runtime-main.fc64c62e.js.map",
     "static/css/2.8d98fc34.chunk.css": "/homemade-restaurant/static/css/2.8d98fc34.chunk.css",
-    "static/js/2.85c43c2e.chunk.js": "/homemade-restaurant/static/js/2.85c43c2e.chunk.js",
-    "static/js/2.85c43c2e.chunk.js.map": "/homemade-restaurant/static/js/2.85c43c2e.chunk.js.map",
+    "static/js/2.009a9908.chunk.js": "/homemade-restaurant/static/js/2.009a9908.chunk.js",
+    "static/js/2.009a9908.chunk.js.map": "/homemade-restaurant/static/js/2.009a9908.chunk.js.map",
     "index.html": "/homemade-restaurant/index.html",
     "static/css/2.8d98fc34.chunk.css.map": "/homemade-restaurant/static/css/2.8d98fc34.chunk.css.map",
-    "static/css/main.a3fa2a51.chunk.css.map": "/homemade-restaurant/static/css/main.a3fa2a51.chunk.css.map",
-    "static/js/2.85c43c2e.chunk.js.LICENSE.txt": "/homemade-restaurant/static/js/2.85c43c2e.chunk.js.LICENSE.txt",
+    "static/css/main.90f6bdbf.chunk.css.map": "/homemade-restaurant/static/css/main.90f6bdbf.chunk.css.map",
+    "static/js/2.009a9908.chunk.js.LICENSE.txt": "/homemade-restaurant/static/js/2.009a9908.chunk.js.LICENSE.txt",
     "static/media/asian-food1.7c1e3725.jpeg": "/homemade-restaurant/static/media/asian-food1.7c1e3725.jpeg",
     "static/media/asian-food2.7f027c33.jpeg": "/homemade-restaurant/static/media/asian-food2.7f027c33.jpeg",
     "static/media/asian-food3.5e6f2cfd.jpeg": "/homemade-restaurant/static/media/asian-food3.5e6f2cfd.jpeg",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.fc64c62e.js",
     "static/css/2.8d98fc34.chunk.css",
-    "static/js/2.85c43c2e.chunk.js",
-    "static/css/main.a3fa2a51.chunk.css",
-    "static/js/main.f70ac195.chunk.js"
+    "static/js/2.009a9908.chunk.js",
+    "static/css/main.90f6bdbf.chunk.css",
+    "static/js/main.7fae782e.chunk.js"
   ]
 }
