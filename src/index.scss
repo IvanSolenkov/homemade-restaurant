@@ -355,7 +355,33 @@ $orangeColor: #FE7606;
 
 /* MeatAndFish */
 
-
+.meat-fish{
+    display: flex;
+    justify-content: center;
+    .headers{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 50px;
+        width: 600px;
+        background-color: $orangeColor;
+        div{
+            display: flex;
+            align-items: center;
+        }
+        h2{
+            margin: 0;
+            font-size: 50px;
+            font-weight: 900;
+        }
+    }
+    img{
+        height: 700px;
+        width: 100%;
+    }
+}
 
 /* Responsive Design */
 
@@ -436,6 +462,20 @@ $orangeColor: #FE7606;
                 height: 170px;
                 width: 115px;
                 margin-left: 0;
+            }
+        }
+    }
+
+    /* MeatAndFish */
+
+    .meat-fish{
+        img{
+            height: 320px;
+            width: 32%;
+        }
+        .headers{
+            h2{
+                font-size: 40px;
             }
         }
     }
