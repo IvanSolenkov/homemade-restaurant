@@ -50,7 +50,7 @@ const AsianFood = () => {
                         </li>
                     ))}
                     <div className="middle">
-                        <div className="text">All Photos</div>
+                        <div className="text">Click on the image</div>
                     </div>
                 </ul>
 
