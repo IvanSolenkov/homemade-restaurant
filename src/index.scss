@@ -388,11 +388,28 @@ $orangeColor: #FE7606;
     align-items: center;
     margin-top: 72px;
     margin-bottom: 2%;
+    .rectangle{
+        position: absolute;
+        background-color: $blackColor;
+        height: 420px;
+        width: 270px;
+        z-index: 0;
+        left: 27%;
+    }
+    .rectangle-org{
+        position: absolute;
+        background-color: $orangeColor;
+        height: 420px;
+        width: 270px;
+        z-index: 0;
+        left: 2%;
+    }
     img{
         height: 360px;
         width: 300px;
         padding: 10px;
-        border: 2px solid $orangeColor;
+        border: 2px solid $whiteColor;
+        z-index: 1;
     }
     .product-text{
         h3{

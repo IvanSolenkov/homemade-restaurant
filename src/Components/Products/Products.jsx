@@ -37,6 +37,8 @@ const Products = () => {
             </div>
 
             <div className="farm-products">
+                <div className="rectangle"></div>
+                <div className="rectangle-org"></div>
                 <img src={product1} alt="product1" />
                 <img src={product2} alt="product2" />
                 <div className="product-text">
