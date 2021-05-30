@@ -391,6 +391,7 @@ $orangeColor: #FE7606;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 72px;
+    margin-bottom: 2%;
     img{
         height: 360px;
         width: 300px;
@@ -406,6 +407,93 @@ $orangeColor: #FE7606;
         }
         p{
             width: 350px;
+        }
+    }
+}
+
+/* FreshFood */
+
+.fresh-food{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 111vh;
+    color: $whiteColor;
+    background-image: url(./Components/uploads/img/fresh-food/fresh-food.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+
+    .fresh-items{
+        align-items: center;
+        margin-bottom: 50px;
+        h3{
+            text-transform: uppercase;
+            font-size: 24px;
+            font-weight: 300;
+            letter-spacing: 7px;
+        }
+        p{
+            width: 500px;
+            font-size: 18px;
+        }
+        span{
+            color: $orangeColor;
+            cursor: pointer;
+        }
+        span:hover{
+            text-decoration: underline;
+        }
+        .social-icons{
+            display: flex;
+            align-items: center;
+            
+            #special-icon{
+                margin-right: 20px;
+                font-size: 30px;
+                cursor: pointer;
+                transition: 0.5s;
+                color: $whiteColor;
+            }
+            #special-icon:hover{
+                color: $orangeColor;
+            }
+        }
+    }
+
+    .menu-icons{
+        display: flex;
+        align-items: center;
+        margin-bottom: 72px;
+        
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 72px;
+            
+            #menu-icon{
+                font-size: 80px;
+                cursor: pointer;
+                transition: 0.5s;
+            }
+            #menu-icon:hover{
+                color: $orangeColor;
+            }
+            h4{
+                font-size: 20px;
+                font-weight: 300;
+                text-transform: uppercase;
+                margin-left: 0;
+                margin-top: 0;
+                transition: 0.5s;
+                cursor: pointer;
+            }
+            h4:hover{
+                color: $orangeColor;
+            }
         }
     }
 }
@@ -515,4 +603,34 @@ $orangeColor: #FE7606;
             text-align: center;
         }
     }
+
+    /* FreshFood */
+
+    .fresh-food{
+        align-items: center;
+        text-align: center;
+
+        .fresh-items{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 0;
+            h3{
+                font-size: 40px;
+                font-weight: bold;
+                text-shadow: 4px 2px $blackColor;
+            }
+            p{
+                width: 350px;
+            }
+        }
+        .menu-icons{
+            margin-bottom: 0;
+            div{
+                margin-right: 15px;
+                margin-left: 15px;
+            }
+        }
+    }
+
 }
