@@ -1,12 +1,7 @@
-import meat from '../uploads/img/menu/meat.jpg';
-import coffee from '../uploads/img/menu/coffee.jpg';
-
 const Menu = () => {
     return (
         <div className="menu">
-            <div className="meat-img">
-                <img src={meat} alt="meat" />
-            </div>
+            <iframe id="video1" title="Homemade Desserts" width="450" height="350" src="https://www.youtube.com/embed/KLiBlO1pXVU"></iframe>
             <div className="rectangle-div"></div>
             <div className="menu-elements">
                 <h1>Menu</h1>
@@ -17,9 +12,7 @@ const Menu = () => {
                 </p>
                 <button>Learn More</button>
             </div>
-            <div className="coffee-img">
-                <img src={coffee} alt="coffee" />
-            </div>
+            <iframe id="video2" title="Homemade Desserts" width="450" height="350" src="https://www.youtube.com/embed/XXQvtSlxv5s"></iframe>
         </div>
     );
 }
