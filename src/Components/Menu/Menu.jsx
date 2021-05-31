@@ -7,6 +7,7 @@ const Menu = () => {
             <div className="meat-img">
                 <img src={meat} alt="meat" />
             </div>
+            <div className="rectangle-div"></div>
             <div className="menu-elements">
                 <h1>Menu</h1>
                 <p>
